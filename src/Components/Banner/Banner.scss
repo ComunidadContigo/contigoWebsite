@@ -1,5 +1,6 @@
 $textColor: #fff;
 $submitColor: #4CAF50;
+$mainColor: #40195a;
 
 .sectionWrapper{
     display: flex;
@@ -12,7 +13,7 @@ $submitColor: #4CAF50;
     min-height: 240px;
     background-color: #fff;
     padding: 50px;
-    margin-top: 5%;
+    margin-top: 10%;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -20,6 +21,11 @@ $submitColor: #4CAF50;
 
 .bannerImage{
     width: 40%;
+}
+
+#mockupImage{
+    position: relative;
+    top: -160px;
 }
 
 .bannerForm{
@@ -39,6 +45,7 @@ $submitColor: #4CAF50;
 .firstRow{
     display: flex;
     flex-direction: row;
+    flex: 1;
 }
 
 .rowInput{
@@ -48,6 +55,17 @@ $submitColor: #4CAF50;
     flex: 1;
     margin-top: 25px;
     margin-right: 20px;
+    input{
+        height: 44px;
+        padding: 5px;
+        padding-left: 10px;
+        margin-top: 8px;
+        border-color: rgb(241, 241, 241);
+        border-style: solid;
+    }
+    label{
+        color: $mainColor;
+    }
 }
 
 .submitButton{
@@ -55,7 +73,6 @@ $submitColor: #4CAF50;
     background-color: $submitColor;
     color: $textColor;
     padding: 14px 20px;
-    // margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
