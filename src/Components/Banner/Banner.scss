@@ -1,5 +1,6 @@
-$textColor: #fff;
-$submitColor: #4CAF50;
+$lightColor: #fff8f2;
+$lighterColor: #fffaf7;
+$submitColor: #662392;
 $mainColor: #40195a;
 
 .sectionWrapper{
@@ -11,7 +12,7 @@ $mainColor: #40195a;
     width: 75%;
     height: 40vh;
     min-height: 240px;
-    background-color: #fff;
+    background-color: $lightColor;
     padding: 50px;
     margin-top: 10%;
     border-radius: 20px;
@@ -26,6 +27,14 @@ $mainColor: #40195a;
 #mockupImage{
     position: relative;
     top: -160px;
+}
+
+.bannerInfo{
+    font-size: 200%;
+    color: $mainColor;
+    #contigoWord{
+        text-decoration: underline;
+    }
 }
 
 .bannerForm{
@@ -60,8 +69,10 @@ $mainColor: #40195a;
         padding: 5px;
         padding-left: 10px;
         margin-top: 8px;
-        border-color: rgb(241, 241, 241);
-        border-style: solid;
+        border-style: none;
+        box-shadow: 2px 2px 7px #ccc;
+        border-radius: 4px;
+        background-color: $lighterColor;
     }
     label{
         color: $mainColor;
@@ -71,7 +82,8 @@ $mainColor: #40195a;
 .submitButton{
     width: 100%;
     background-color: $submitColor;
-    color: $textColor;
+    color: $lightColor;
+    font-size: 110%;
     padding: 14px 20px;
     border: none;
     border-radius: 4px;

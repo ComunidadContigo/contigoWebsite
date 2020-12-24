@@ -7,15 +7,8 @@ const Nav = () => {
         <div className="navLogo">
             <h1>contigo</h1>
         </div>
-        <div className="navLinks">
-            <ul>
-                <li>
-                    Comunidad
-                </li>
-                <li>
-                    Negocios
-                </li>
-            </ul>
+        <div className="registerButton">
+            <button>¡Unete a la comunidad!</button>
         </div>
     </div> 
     );

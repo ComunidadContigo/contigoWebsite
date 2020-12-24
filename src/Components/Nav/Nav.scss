@@ -1,4 +1,7 @@
-$textColor: #fff;
+$lightColor: #fff8f2;
+$lighterColor: #fffaf7;
+$submitColor: #662392;
+$mainColor: #40195a;
 
 .navWrapper{
     padding-left: 5%;
@@ -7,17 +10,18 @@ $textColor: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: $textColor;
+    color: $lightColor;
 }
 
-.navLinks{
-    ul{
-        list-style-type: none;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        li{
-            padding-right: 40%;
-        }
+.registerButton{
+    button{
+        width: 100%;
+        background-color: #fff8f2d2;
+        color: $mainColor;
+        font-size: 110%;
+        padding: 14px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
     }
 }

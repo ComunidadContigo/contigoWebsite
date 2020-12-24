@@ -11,10 +11,10 @@ const Banner = () => {
             </div>
             <div className="bannerForm">
                 <div className="bannerInfo">
-                    Una comunidad segura empieza
-                    <span> contigo</span>
+                    <span>Una comunidad segura empieza </span>
+                    <span id="contigoWord">contigo</span>
                 </div>
-                <form className="formInputs">
+                <form className="formInputs" action="#" method="POST">
                     <div className="firstRow">
                         <div className="rowInput">
                             <label for="name">
@@ -33,10 +33,10 @@ const Banner = () => {
                         <label>
                             Email:
                         </label>
-                        <input type="email" name="email" placeholder="Eg. Dan_prz97@gmail.com"/>
+                        <input type="email" name="email" placeholder="Eg. Daniel_prz@gmail.com"/>
                     </div>
                     <div className="rowInput">
-                        <input type="submit" value="Submit" className="submitButton"/>
+                        <button type="submit" className="submitButton">¡Registrate Para Más Información!</button>
                     </div>
                 </form>
             </div>
