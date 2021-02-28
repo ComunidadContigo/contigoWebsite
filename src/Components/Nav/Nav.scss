@@ -10,18 +10,19 @@ $mainColor: #40195a;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: $lightColor;
+    color: $mainColor;
+    font-weight: 100;
 }
 
-.registerButton{
-    button{
-        width: 100%;
-        background-color: #fff8f2d2;
-        color: $mainColor;
-        font-size: 110%;
-        padding: 14px 20px;
-        border: none;
-        border-radius: 20px;
-        cursor: pointer;
-    }
-}
+// .registerButton{
+//     button{
+//         width: 100%;
+//         background-color: #fff8f2d2;
+//         color: $mainColor;
+//         font-size: 110%;
+//         padding: 14px 20px;
+//         border: none;
+//         border-radius: 20px;
+//         cursor: pointer;
+//     }
+// }

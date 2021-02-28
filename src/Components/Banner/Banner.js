@@ -10,20 +10,20 @@ const Banner = () => {
                 <img src={mockup} alt="contigo_mockup" id="mockupImage"></img>
             </div>
             <div className="bannerForm">
-                <div className="bannerInfo">
+                {/* <div className="bannerInfo">
                     <span>Una comunidad segura empieza </span>
                     <span id="contigoWord">contigo</span>
-                </div>
+                </div> */}
                 <form className="formInputs" action="#" method="POST">
                     <div className="firstRow">
                         <div className="rowInput">
-                            <label for="name">
+                            <label htmlFor="name">
                                 Name:
                             </label>
                             <input type="text" name="name" id="name" placeholder="Eg. Daniel"/>
                         </div>
                         <div className="rowInput">
-                            <label for="lastName">
+                            <label htmlFor="lastName">
                                 Last Name:
                             </label>
                             <input type="text" name="lastName" id="lastName" placeholder="Eg. Perez"/>

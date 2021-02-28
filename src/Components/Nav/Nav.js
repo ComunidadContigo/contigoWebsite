@@ -7,9 +7,9 @@ const Nav = () => {
         <div className="navLogo">
             <h1>contigo</h1>
         </div>
-        <div className="registerButton">
+        {/* <div className="registerButton">
             <button>¡Unete a la comunidad!</button>
-        </div>
+        </div> */}
     </div> 
     );
 }

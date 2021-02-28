@@ -1,0 +1,23 @@
+.heroWrapper{
+    display: flex;
+    margin-top: 50px;
+}
+
+.heroImg{
+    width: 45%;
+}
+
+.heroText{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 120%;
+    padding-left: 10%;
+    padding-bottom: 7%;
+}
+
+.heroImgContainer{
+    width: 50%;
+}

@@ -9,23 +9,27 @@ $mainColor: #40195a;
 }
 
 .bannerWrapper{
-    width: 75%;
-    height: 40vh;
+    width: 60%;
+    height: 30vh;
     min-height: 240px;
-    background-color: $lightColor;
+    // background-color: $lightColor;
     padding: 50px;
-    margin-top: 10%;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    border-style: solid;
+    border-color: $submitColor;
+    border-width: 5px;
+    margin-right: 15%;
 }
 
 .bannerImage{
-    width: 40%;
+    width: 60%;
 }
 
 #mockupImage{
     position: relative;
+    width: 50%;
     top: -160px;
 }
 
@@ -46,7 +50,7 @@ $mainColor: #40195a;
 .formInputs{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    // margin-top: 50px;
     height: 30vh;
     min-height: 200px;
 }
@@ -72,7 +76,7 @@ $mainColor: #40195a;
         border-style: none;
         box-shadow: 2px 2px 7px #ccc;
         border-radius: 4px;
-        background-color: $lighterColor;
+        // background-color: $lighterColor;
     }
     label{
         color: $mainColor;

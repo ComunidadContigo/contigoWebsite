@@ -1,10 +1,11 @@
 .App {
   text-align: center;
-  // background-color: #40195a;
-  background-image: url('../../Images/background.png');
+  background-color: #fff;
+  background-image: url('../../Images/Path21.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background-position: right top;
+  background-size: 65%;
+  min-height: 100vh;
   width: 100%;
 }
 
