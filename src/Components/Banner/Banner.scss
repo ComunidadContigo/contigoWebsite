@@ -1,6 +1,6 @@
 $lightColor: #fff8f2;
 $lighterColor: #fffaf7;
-$submitColor: #662392;
+$submitColor: #4b2ea2;
 $mainColor: #40195a;
 
 .sectionWrapper{
@@ -9,7 +9,7 @@ $mainColor: #40195a;
 }
 
 .bannerWrapper{
-    width: 60%;
+    width: 100%;
     height: 30vh;
     min-height: 240px;
     // background-color: $lightColor;
@@ -18,33 +18,38 @@ $mainColor: #40195a;
     display: flex;
     justify-content: space-between;
     border-style: solid;
+    flex-wrap: wrap;
     border-color: $submitColor;
     border-width: 5px;
-    margin-right: 15%;
+    // margin-right: 15%;
 }
 
 .bannerImage{
-    width: 60%;
+    width: 40%;
+    min-width: 250px;
 }
 
 #mockupImage{
     position: relative;
     width: 50%;
+    min-width: 250px;
     top: -160px;
 }
 
-.bannerInfo{
-    font-size: 200%;
-    color: $mainColor;
-    #contigoWord{
-        text-decoration: underline;
-    }
-}
+// .bannerInfo{
+//     font-size: 200%;
+//     color: $mainColor;
+//     #contigoWord{
+//         text-decoration: underline;
+//     }
+// }
 
 .bannerForm{
     width: 60%;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
+    max-height: 30vh;
 }
 
 .formInputs{

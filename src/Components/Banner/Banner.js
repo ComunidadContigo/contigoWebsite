@@ -10,10 +10,6 @@ const Banner = () => {
                 <img src={mockup} alt="contigo_mockup" id="mockupImage"></img>
             </div>
             <div className="bannerForm">
-                {/* <div className="bannerInfo">
-                    <span>Una comunidad segura empieza </span>
-                    <span id="contigoWord">contigo</span>
-                </div> */}
                 <form className="formInputs" action="#" method="POST">
                     <div className="firstRow">
                         <div className="rowInput">
